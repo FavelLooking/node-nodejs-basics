@@ -22,7 +22,7 @@ const decompress = async () => {
       console.error("Error:", err);
       process.exitCode = 1;
     } else {
-      console.log("Files were decompressed");
+      console.log("File was decompressed");
       fs.unlink(compressedFilePath, (unlinkErr) => {
         if (unlinkErr) {
           console.error("Error:", unlinkErr);

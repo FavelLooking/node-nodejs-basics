@@ -12,12 +12,6 @@ const __filename = url.fileURLToPath(import.meta.url);
 
 let unknownObject;
 
-// if (random > 0.5) {
-//   unknownObject = import("./files/a.json", { with: { type: "json" } });
-// } else {
-//   unknownObject = import("./files/b.json", { with: { type: "json" } });
-// }
-
 console.log(`Release ${release()}`);
 console.log(`Version ${version()}`);
 console.log(`Path segment separator is "${path.sep}"`);
